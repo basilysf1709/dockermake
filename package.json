@@ -1,0 +1,18 @@
+{
+  "name": "basil-contains",
+  "version": "1.0.0",
+  "description": "Containerize you application",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "basil-contains": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.14"
+  }
+}
