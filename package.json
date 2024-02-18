@@ -1,11 +1,11 @@
 {
-  "name": "basil-contains",
+  "name": "dockermake",
   "version": "1.0.0",
   "description": "Containerize you application",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "basil-contains": "./index.js"
+    "dockermake": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
