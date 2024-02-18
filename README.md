@@ -1,6 +1,10 @@
 
 # dockermake v1.0
 
+#### Install using `npm i dockermake`
+#### Check it out [here](https://www.npmjs.com/package/dockermake).
+
+
 This README provides guidelines on how to use the Makefile genereated using dockermake managing Docker containers and images.
 
 ## Getting Started
