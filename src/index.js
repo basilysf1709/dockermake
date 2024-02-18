@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
-import { createMakefileForDocker } from "./util.js";
+import { createMakefileForDocker } from "./functions.js";
 
 inquirer.prompt([
     {
