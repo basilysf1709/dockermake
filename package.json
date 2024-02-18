@@ -1,7 +1,7 @@
 {
   "name": "dockermake",
   "version": "1.0.0",
-  "description": "Containerize you application",
+  "description": "Containerize your application using a Makefile",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -10,9 +10,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Basil Yusuf <basilyusuf1709@gmail.com> (https://github.com/basilysf1709)",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.14"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "bin/"
+  ],
+  "private": false,
+  "keywords": ["docker", "makefile", "container", "devops"],
+  "bugs": {
+    "url": "https://github.com/basilyusuf1709/dockermake/issues"
+  },
+  "homepage": "https://github.com/basilyusuf1709/dockermake#readme"
 }
