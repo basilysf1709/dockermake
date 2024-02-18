@@ -1,6 +1,6 @@
 {
   "name": "dockermake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Containerize your application using a Makefile",
   "main": "index.js",
   "type": "module",
@@ -16,7 +16,7 @@
     "inquirer": "^9.2.14"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "files": [
     "src/",
