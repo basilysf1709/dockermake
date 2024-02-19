@@ -13,6 +13,7 @@
   "author": "Basil Yusuf <basilyusuf1709@gmail.com> (https://github.com/basilysf1709)",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.14"
   },
   "engines": {
@@ -23,7 +24,12 @@
     "bin/"
   ],
   "private": false,
-  "keywords": ["docker", "makefile", "container", "devops"],
+  "keywords": [
+    "docker",
+    "makefile",
+    "container",
+    "devops"
+  ],
   "bugs": {
     "url": "https://github.com/basilyusuf1709/dockermake/issues"
   },

@@ -1,5 +1,5 @@
 
-# dockermake v1.0
+# dockermake v1.0.2
 
 #### Install using `npm i dockermake`
 #### Check it out [here](https://www.npmjs.com/package/dockermake).
@@ -26,8 +26,9 @@ In order to run this container you'll need docker installed.
 
 List the different parameters available to your container
 
-### Commands:
+### Makefile Commands for docker: 
 
+#### Run `dockermake` in you root repository:
 
 #### `make build`
 
@@ -109,10 +110,56 @@ List the different parameters available to your container
 
 -   `/your/local/path:/container/path` - Describe any volumes mounted inside your container.
 
+### Makefile Commands for docker-compose: 
+This Makefile provides a convenient way to manage Docker Compose operations for your project. Below are the available commands and their descriptions:
+
+#### `make build`
+**Purpose**: Builds Docker images using Docker Compose.
+**Details:** This command executes docker-compose build, incorporating any specified build arguments, Docker Compose file, and environment file.
+**Usage:** `make build`
+
+#### `make up`
+- **Purpose**: Starts up the Docker environment.
+- **Details:** Uses docker-compose up -d to create and start containers in detached mode.
+- **Usage:** `make up`
+#### `make down`
+- **Purpose**: Stops and removes Docker containers, networks, images, and volumes.
+- **Details:** Executes docker-compose down, cleaning up the entire Docker environment created by up.
+- **Usage:** `make down`
+#### `make stop`
+- **Purpose**: Stops running Docker containers.
+- **Details:** This command issues a docker-compose stop to halt running containers without removing them.
+- **Usage:** `make stop`
+#### `make remove`
+- **Purpose**: Removes stopped Docker containers.
+- **Details:** Executes docker-compose rm to remove containers that have been stopped.
+- **Usage:** `make remove`
+#### `make clean`
+- **Purpose**: Cleans up everything, including containers, networks, images, and volumes.
+- **Details:** Combines the functionality of down with additional flags to remove images and volumes.
+- **Usage:** make clean
+#### `make logs`
+- **Purpose**: Displays logs for running services.
+- **Details:** Fetches and displays output logs from running containers using docker-compose logs.
+- **Usage:** `make logs`
+#### `make shell`
+- **Purpose**: Accesses the shell of a running container.
+- **Details:** Opens an interactive shell inside a running container.
+#### `make restart`
+- **Purpose**: Restarts Docker containers.
+- **Details:** Stops and then starts the containers, essentially refreshing the Docker environment.
+- **Usage:** `make restart`
+
+#### Command Line Variables
+- `COMPOSE_FILE`: Specifies the Docker Compose file.
+- `ENV_FILE`: Specifies the environment file for Docker Compose.
+- `BUILD_ARGS`: Build arguments to be passed during image building.
+
 ### Built With
 
 1. JavaScript
 2. Inquirer
+3. Chalk
 
 ### Find Me here
 
