@@ -5,7 +5,8 @@
 #### Check it out [here](https://www.npmjs.com/package/dockermake).
 
 #### Live Demo
-https://github.com/basilysf1709/dockermake/assets/92009321/a999f9f3-1e4e-42e9-ac85-9eb7eb8bd81e
+
+https://github.com/basilysf1709/dockermake/assets/92009321/fb7ce740-0915-4217-bcd3-2d806f42e8fc
 
 ## Getting Started
 
