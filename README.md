@@ -2,7 +2,7 @@
 # dockermake v1.0.2
 
 #### Install using `npm i dockermake`
-#### Check it out [here](https://www.npmjs.com/package/dockermake).
+#### Check it out [here] [![NPM downloads][downloads-image]][downloads-url](https://www.npmjs.com/package/dockermake).
 
 #### Live Demo
 
