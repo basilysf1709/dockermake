@@ -163,6 +163,16 @@ This Makefile provides a convenient way to manage Docker Compose operations for 
 
 ### Github stars
 
+<a href="https://star-history.com/#basilysf1709/dockermake&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=basilysf1709/dockermake&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=basilysf1709/dockermake&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=basilysf1709/dockermake&type=Date" />
+  </picture>
+</a>
+
+
+
 [![GitHub Repo stars](https://img.shields.io/github/stars/basilysf1709/dockermake)](https://github.com/basilysf1709/dockermake)
 
 ### Find Me here
