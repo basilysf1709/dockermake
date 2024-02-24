@@ -161,6 +161,10 @@ This Makefile provides a convenient way to manage Docker Compose operations for 
 2. Inquirer
 3. Chalk
 
+### Github stars
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/basilysf1709/dockermake)](https://github.com/basilysf1709/dockermake)
+
 ### Find Me here
 
 [GitHub](https://github.com/basilysf1709)
